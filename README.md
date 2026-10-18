@@ -1,5 +1,4 @@
 # LCCO-Net
-# LCCO-Net
 
 **LCCO-Net: A Layer-twice Cross-scale Complementary Optimization Network for AI-Generated Image Detection**
 
@@ -74,7 +73,8 @@ LCCO-Net/
 │   ├── lhfe.py            # Local High-Frequency Enhancement module
 │   ├── cbam.py            # Convolutional Block Attention Module
 │   ├── cco.py             # Class-conditional Orthogonal constraint loss
-│   └── resnet.py          # ResNet building blocks and single-branch baseline
+│   ├── resnet.py          # ResNet building blocks and single-branch baseline
+│   └── convnext.py        # ConvNeXt-tiny residual backbone (self-contained)
 ├── scripts/
 │   ├── train.sh           # distributed training entry
 │   └── eval.sh            # inference / evaluation entry
